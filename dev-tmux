@@ -1,0 +1,16 @@
+#!/bin/bash
+
+tmux new-session -s "dev" \; \
+rename-window -t 0 "vim" \; \
+send-keys "nvim" Enter \; \
+split-window -h \; \
+select-pane -t 1 \; \
+split-window -v \; \
+select-pane -t 0 \; \
+new-window -n "explorer" \; \
+send-keys "ranger" Enter \; \
+split-window -h \; \
+select-pane -t 0 \; \
+new-window -n "processes" \; \
+send-keys "btop" Enter \; \
+select-window -t "vim"
