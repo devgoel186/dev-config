@@ -2,6 +2,10 @@
 
 A custom tmux configuration (including theming and status bar) and tmux launch script for boosted productivity that comprises of tmux setup with three different windows for the most basic daily tasks you do on your system.
 
+![Window 1 - vim](./captures/Screenshot_20230706_011825.png)
+![Window 2 - explorer](./captures/Screenshot_20230706_012226.png)
+![Window 3 - processes](./captures/Screenshot_20230706_012008.png)
+
 ## TMUX Configuration
 
 The TMUX configuration file `.tmux.conf` provides the following changes in the basic tmux layout:
